@@ -1,2 +1,2 @@
 # exemple-site-git2
-présentation pour la création d'un site sur git en local
+Projet de présentation personnel pour la création d'un site sur git en local
