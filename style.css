@@ -2,6 +2,7 @@ body{
   background-color: rgb(51, 50, 50);
 }
 .nav {
+    
     background-color: grey; 
     list-style-type: none;
     text-align: center;
@@ -11,6 +12,7 @@ body{
   }
 
   .nav li {
+
     display: inline-block;
     list-style-type: none;
     font-size: 20px;
