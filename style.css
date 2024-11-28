@@ -22,6 +22,7 @@ h1{ color: black;
 }
 
 .container {
+    text-align: justify ;
     column-count: 3;
     column-width: 200px;
   }
@@ -37,4 +38,17 @@ h1{ color: black;
   width: 300px;
   margin-bottom: 100px;
   margin-left: 100px
+}
+
+footer{
+  color:aliceblue;
+  font-size : 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: right;
+}
+
+button{
+  font-size: 60px;
+  text-decoration: none;
+
 }
