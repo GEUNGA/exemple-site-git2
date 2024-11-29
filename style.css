@@ -19,9 +19,14 @@ body{
     padding: 20px;
   }
 
+  .nav a {
+
+    text-decoration: none;
+
+  }
 
 
-h1{ color:#17a2da
+h1{ color:#17a2da;
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;   
 }
@@ -102,4 +107,22 @@ button:hover:before {
 button:active:before {
   background: #3a0ca3;
   transition: background 0s;
+}
+
+h1{
+  color:#17a2da;
+  font-family: Verdana ;
+}
+
+.texteexpo {
+  text-align: justify ;
+  column-count: 3;
+  column-width: 400px;
+  font-size: 20px;
+  color:#17a2da;
+  padding: 200px;
+}
+
+.texteitalique {
+font-size : 25px;
 }
