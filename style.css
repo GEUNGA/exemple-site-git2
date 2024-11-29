@@ -11,16 +11,20 @@ body{
     font-family: Arial, Helvetica, sans-serif;
   }
 
+  p{
+    color: white;
+  }
   .nav li {
 
     display: inline-block;
     list-style-type: none;
-    font-size: 20px;
+    
     padding: 20px;
   }
 
   .nav a {
-
+    color:black;
+    font-size: 30px;
     text-decoration: none;
 
   }
@@ -53,14 +57,14 @@ h1{ color:#17a2da;
 }
 
 footer{
-  color:aliceblue;
+  color:rgb(80, 81, 82);
   font-size : 15px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: right;
 }
 
 button {
-  --color: #17a2da;
+  --color: #000000;
   font-family: inherit;
   display: inline-block;
   width: 8em;
@@ -90,7 +94,7 @@ button:before {
 }
 
 button:hover {
-  color: #ffffff70;
+  color: #25232370;
 }
 
 button:before {
