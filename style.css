@@ -5,7 +5,7 @@ body{
 
   @font-face{
     font-family: "robotomedium";
-    src: url("font/robotomedium.otf");
+    src: url("font/robotomedium.ttf");
   }
 .nav {
     text-align: center;
@@ -13,13 +13,22 @@ body{
     padding: 0;
       }
 
+  p{
+    color: white;
+  }
   .nav li {
 
     display: inline-block;
+<<<<<<< HEAD
+=======
+    list-style-type: none;
+    
+>>>>>>> a318a0d2e034101f41f1459855b232f2b7d40b6b
     padding: 20px;
   }
 
   .nav a {
+<<<<<<< HEAD
     font-family: "robotomedium";
     text-decoration: none;
     color: black;
@@ -31,6 +40,16 @@ body{
 
 
 h1{ color:#ffffff;
+=======
+    color:black;
+    font-size: 30px;
+    text-decoration: none;
+
+  }
+
+
+h1{ color:#17a2da;
+>>>>>>> a318a0d2e034101f41f1459855b232f2b7d40b6b
     font-size: 40px;
     font-family: "robotolight";
 }
@@ -60,7 +79,7 @@ h1{ color:#ffffff;
 }
 
 footer{
-  color:aliceblue;
+  color:rgb(80, 81, 82);
   font-size : 15px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: right;
@@ -68,7 +87,7 @@ footer{
 }
 
 button {
-  --color: #17a2da;
+  --color: #000000;
   font-family: inherit;
   display: inline-block;
   width: 8em;
@@ -98,7 +117,7 @@ button:before {
 }
 
 button:hover {
-  color: #ffffff70;
+  color: #25232370;
 }
 
 button:before {
@@ -115,4 +134,22 @@ button:hover:before {
 button:active:before {
   background: #3a0ca3;
   transition: background 0s;
+}
+
+h1{
+  color:#17a2da;
+  font-family: Verdana ;
+}
+
+.texteexpo {
+  text-align: justify ;
+  column-count: 3;
+  column-width: 400px;
+  font-size: 20px;
+  color:#17a2da;
+  padding: 200px;
+}
+
+.texteitalique {
+font-size : 25px;
 }
