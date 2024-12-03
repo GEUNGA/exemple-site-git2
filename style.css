@@ -38,9 +38,9 @@ body{
 }
 
 
-h1{ color:#17a2da;
-    font-size: 40px;
-    font-family: "robotolight";
+h1{ color:#1302fa;
+    font-size: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
@@ -56,16 +56,17 @@ h1{ color:#17a2da;
      
     position:absolute;
     top: 160px;
-    left: 450px;
-    right : 50px;
+    left: 500px;
+    right : 170px;
+
 }
 
 
 details{
   font-size:20px;
   line-height: 3;
-  color:rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.411);
+  color:rgba(63, 63, 65, 0.151);
+  background-color: rgba(255, 255, 255, 0.411);
   border-radius: 10% 30% 50% 70%;
 }
 
@@ -134,10 +135,7 @@ button:active:before {
   transition: background 0s;
 }
 
-h1{
-  color:#17a2da;
-  font-family: Verdana ;
-}
+
 
 .texteexpo {
   text-align: justify ;
