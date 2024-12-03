@@ -1,49 +1,61 @@
 body{
-  background-color: rgb(51, 50, 50);
-}
+  background-color: rgb(60, 0, 170);
+  
+  }
+
+  @font-face{
+    font-family: "robotomedium";
+    src: url("font/robotomedium.otf");
+  }
 .nav {
-    
-    background-color: grey; 
-    list-style-type: none;
     text-align: center;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+      }
 
   .nav li {
 
     display: inline-block;
-    list-style-type: none;
-    font-size: 20px;
     padding: 20px;
   }
 
+  .nav a {
+    font-family: "robotomedium";
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    font-variant:small-caps;
+  }
 
 
-h1{ color:#17a2da
+
+
+h1{ color:#ffffff;
     font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;   
+    font-family: "robotolight";
 }
 
 .container {
+    
     text-align: justify ;
-    column-count: 3;
+    column-count: 1;
     column-width: 200px;
     font-size: 20px;
-    color:#17a2da
-  }
+    color:#ffffff;
+}
 
 .container {
+     
     position:absolute;
-    top: 150px;
+    top: 160px;
     left: 450px;
     right : 50px;
 }
 
 .portrait {
+  position:absolute;
   width: 300px;
-  margin-bottom: 100px;
+  top:180px;
   margin-left: 100px
 }
 
@@ -52,6 +64,7 @@ footer{
   font-size : 15px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: right;
+  margin bottom:0;
 }
 
 button {
