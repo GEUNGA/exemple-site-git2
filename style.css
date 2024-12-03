@@ -1,11 +1,11 @@
 body{
-  background-color: rgb(60, 0, 170);
-  
+  background-image: url(images/background2.jpeg) ;
+   
   }
 
   @font-face{
-    font-family: "robotomedium";
-    src: url("font/robotomedium.ttf");
+    font-family: "robotolight";
+    src: url("font/robotolight.ttf");
   }
 .nav {
     text-align: center;
@@ -15,41 +15,30 @@ body{
 
   p{
     color: white;
+    font-size: 20px;
   }
   .nav li {
 
     display: inline-block;
-<<<<<<< HEAD
-=======
     list-style-type: none;
     
->>>>>>> a318a0d2e034101f41f1459855b232f2b7d40b6b
     padding: 20px;
   }
 
   .nav a {
-<<<<<<< HEAD
-    font-family: "robotomedium";
-    text-decoration: none;
-    color: black;
-    font-size: 35px;
-    font-variant:small-caps;
-  }
-
-
-
-
-h1{ color:#ffffff;
-=======
-    color:black;
+    font-family: "robotolight";
+    color:rgb(255, 255, 255);
     font-size: 30px;
     text-decoration: none;
 
   }
 
+.nav a:hover{
+  color:rgb(5, 1, 253);
+}
+
 
 h1{ color:#17a2da;
->>>>>>> a318a0d2e034101f41f1459855b232f2b7d40b6b
     font-size: 40px;
     font-family: "robotolight";
 }
@@ -71,6 +60,15 @@ h1{ color:#17a2da;
     right : 50px;
 }
 
+
+details{
+  font-size:20px;
+  line-height: 3;
+  color:rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.411);
+  border-radius: 10% 30% 50% 70%;
+}
+
 .portrait {
   position:absolute;
   width: 300px;
@@ -87,7 +85,7 @@ footer{
 }
 
 button {
-  --color: #000000;
+  --color: #1302fa;
   font-family: inherit;
   display: inline-block;
   width: 8em;
