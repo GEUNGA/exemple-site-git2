@@ -4,8 +4,8 @@ body{
   }
 
   @font-face{
-    font-family: "robotolight";
-    src: url("font/robotolight.ttf");
+    font-family: "parkinsans";
+    src: url("font/parkinsans/parkinsanssemibold.ttf");
   }
 .nav {
     text-align: center;
@@ -26,9 +26,9 @@ body{
   }
 
   .nav a {
-    font-family: "robotolight";
+    font-family: "parkinsans";
     color:rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: none;
 
   }
@@ -44,11 +44,12 @@ h1{ color:#1302fa;
 }
 
 .container {
-    
+
+    font-family:"parkinsans";
     text-align: justify ;
     column-count: 1;
     column-width: 200px;
-    font-size: 20px;
+    font-size: 15px;
     color:#ffffff;
 }
 
