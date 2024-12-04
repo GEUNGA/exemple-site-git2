@@ -18,10 +18,8 @@ body{
     font-size: 20px;
   }
   .nav li {
-
     display: inline-block;
     list-style-type: none;
-    
     padding: 20px;
   }
 
@@ -56,7 +54,9 @@ h1{ color:#292D81;
 
 .container {
      
+
     position:absolute;
+
     top: 160px;
     left: 500px;
     right : 170px;
@@ -74,9 +74,15 @@ details{
 
 .portrait {
   position:absolute;
-  width: 300px;
-  top:180px;
-  margin-left: 100px
+  width: 400px;
+  top: 250px;
+  margin-left: 100px;
+  padding-right: 300px;
+}
+
+.nicolas{
+
+  
 }
 
 footer{
