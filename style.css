@@ -3,10 +3,26 @@ body{
    
   }
 
-  @font-face{
-    font-family: "parkinsans";
-    src: url("font/parkinsans/parkinsanssemibold.ttf");
-  }
+
+@font-face{
+  font-family: "";
+  src: url("font/parkinsans/parkinsanssemibold.ttf");
+}
+
+@font-face{
+  font-family: "parkinsans";
+  src: url("font/parkinsans/parkinsanssemibold.ttf");
+}
+
+  @font-face { 
+  font-family: "parkinsansregular"; src: url("font/parkinsans/parkinsansregular.ttf"); 
+}
+
+@font-face{
+  font-family: "parkinsansextrabold";
+  src: url("font/parkinsans/parkinsansextrabold.ttf");
+}
+
 .nav {
     text-align: center;
     margin: 0;
@@ -26,7 +42,7 @@ body{
   .nav a {
     font-family: "parkinsans";
     color:rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: none;
 
   }
@@ -42,9 +58,24 @@ h1{ color:#292D81;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.messagedaccueil {
+  color: rgb(161, 185, 252);
+  margin-top: 300px;
+  text-align: center;
+  font-family: "parkinsansextrabold";
+  font-size: 80px;
+}
+.messagedaccueil:active {
+  color: rgb(3, 70, 253);
+  margin-top: 300px;
+  text-align: center;
+  font-family: "parkinsansextrabold";
+  font-size: 80px;
+}
+
 .container {
 
-    font-family:"parkinsans";
+    font-family:"parkinsansregular";
     text-align: justify ;
     column-count: 1;
     column-width: 200px;
@@ -56,7 +87,6 @@ h1{ color:#292D81;
      
 
     position:absolute;
-
     top: 160px;
     left: 500px;
     right : 170px;
@@ -65,11 +95,14 @@ h1{ color:#292D81;
 
 
 details{
+
+  font-family:"parkinsansregular";
   font-size:20px;
   line-height: 3;
-  color:rgba(63, 63, 65, 0.151);
-  background-color: rgba(255, 255, 255, 0.411);
-  border-radius: 10% 30% 50% 70%;
+  color:rgb(255, 255, 255);
+  margin-left: 200px;
+  
+ 
 }
 
 .portrait {
@@ -82,6 +115,10 @@ details{
 
 .nicolas{
 
+  color: rgb(161, 185, 252);
+  margin-top: 20px;
+  font-family: "parkinsansextrabold";
+  font-size: 20px;
   
 }
 
@@ -149,7 +186,7 @@ button:active:before {
 
 
 .texteexpo {
-  font-family:"parkinsans";
+  font-family:"parkinsansregular";
   text-align: justify ;
   column-count: 3;
   font-size: 20px;
