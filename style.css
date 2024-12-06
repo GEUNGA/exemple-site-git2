@@ -5,8 +5,8 @@ body{
 
 
 @font-face{
-  font-family: "";
-  src: url("font/parkinsans/parkinsanssemibold.ttf");
+  font-family: "bebasneueregular";
+  src: url("font/bebasneueregular.ttf");
 }
 
 @font-face{
@@ -23,16 +23,16 @@ body{
   src: url("font/parkinsans/parkinsansextrabold.ttf");
 }
 
+
+
 .nav {
     text-align: center;
     margin: 0;
     padding: 0;
+ 
       }
 
-  p{
-    color: white;
-    font-size: 20px;
-  }
+
   .nav li {
     display: inline-block;
     list-style-type: none;
@@ -48,14 +48,20 @@ body{
   }
 
 .nav a:hover{
-  color:rgb(5, 1, 253);
+  color:#2b00cc;
 }
 
 
-h1{ color:#292D81;
-    font-size: 35px;
-    padding-top: 150px ;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+h1{ color:#83fd97;
+    font-size: 55px;
+    margin-top: 60px ;
+    text-transform: uppercase;
+    font-family: "bebasneueregular";
+}
+
+h2{
+
+  font-size: 19px;
 }
 
 .messagedaccueil {
@@ -79,7 +85,7 @@ h1{ color:#292D81;
     text-align: justify ;
     column-count: 1;
     column-width: 200px;
-    font-size: 15px;
+    font-size: 16px;
     color:#ffffff;
 }
 
@@ -87,9 +93,9 @@ h1{ color:#292D81;
      
 
     position:absolute;
-    top: 160px;
-    left: 500px;
-    right : 170px;
+    top: 80px;
+    left: 600px;
+    right : 150px;
 
 }
 
@@ -114,11 +120,16 @@ details{
 }
 
 .nicolas{
-
-  color: rgb(161, 185, 252);
+  text-align: ;
+  color:#83fd97;
   margin-top: 20px;
   font-family: "parkinsansextrabold";
-  font-size: 20px;
+  font-size: 17px;
+  display:inline-block;
+  margin-left: 195px;
+  margin-top: 580px;
+  text-align: center;
+  line-height: 75%;
   
 }
 
@@ -134,10 +145,10 @@ footer{
 }
 
 button {
-  --color: #1302fa;
-  font-family: inherit;
+  --color:#21c03b;
+  font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
-  width: 8em;
+  width: 10em;
   height: 2.6em;
   line-height: 2.5em;
   margin: 20px;
@@ -147,7 +158,7 @@ button {
   border: 2px solid var(--color);
   transition: color 0.5s;
   z-index: 1;
-  font-size: 25px;
+  font-size: 20px;
   border-radius: 6px;
   font-weight: 500;
   color: var(--color);
@@ -160,7 +171,7 @@ button:before {
   background: var(--color);
   height: 150px;
   width: 200px;
-  border-radius: 50%;
+  border-radius: 60%;
 }
 
 button:hover {
@@ -170,7 +181,7 @@ button:hover {
 button:before {
   top: 100%;
   left: 100%;
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
 
 button:hover:before {
@@ -179,7 +190,7 @@ button:hover:before {
 }
 
 button:active:before {
-  background: #3a0ca3;
+  background: #111111;
   transition: background 0s;
 }
 
@@ -191,8 +202,38 @@ button:active:before {
   column-count: 3;
   font-size: 20px;
   color:#ffffff;
-  padding-top: 200px;
   padding-right: 100px;
   padding-left:400px;  
 }
 
+.sisif {
+
+  text-decoration: none;
+  color: #83fd97;
+}
+
+.sisif:hover {
+
+  color:#00a023;
+}
+
+
+.forme {
+
+  height: 450px;
+  margin-left: 230px;
+
+}
+
+.forme4{
+
+  height: 450px;
+  margin-left: 230px;
+
+}
+
+.chicon{
+  height: 200px;
+  margin-left: 400px;
+  margin-top: 30px
+}
