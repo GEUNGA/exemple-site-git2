@@ -54,7 +54,7 @@ body{
 
 h1{ color:#83fd97;
     font-size: 55px;
-    margin-top: 60px ;
+    margin-top: 50px ;
     text-transform: uppercase;
     font-family: "bebasneueregular";
 }
@@ -66,14 +66,14 @@ h2{
 
 .messagedaccueil {
   color: rgb(161, 185, 252);
-  margin-top: 300px;
+  margin-top: 230px;
   text-align: center;
   font-family: "parkinsansextrabold";
   font-size: 80px;
 }
 .messagedaccueil:active {
   color: rgb(3, 70, 253);
-  margin-top: 300px;
+  margin-top: 230px;
   text-align: center;
   font-family: "parkinsansextrabold";
   font-size: 80px;
@@ -104,17 +104,17 @@ details{
 
   font-family:"parkinsansregular";
   font-size:20px;
-  line-height: 3;
+  line-height: 2;
   color:rgb(255, 255, 255);
-  margin-left: 200px;
   
- 
+  
 }
+
 
 .portrait {
   position:absolute;
   width: 400px;
-  top: 250px;
+  top: 120px;
   margin-left: 100px;
   padding-right: 300px;
 }
@@ -127,22 +127,13 @@ details{
   font-size: 17px;
   display:inline-block;
   margin-left: 195px;
-  margin-top: 580px;
+  margin-top: 450px;
   text-align: center;
   line-height: 75%;
   
 }
 
-footer{
-  color:rgb(80, 81, 82);
-  background-color: #030029;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: right;
-  margin-top: auto;
-  position: relative;
-  bottom:0;
-  width:100%;
-}
+
 
 button {
   --color:#21c03b;
@@ -200,10 +191,10 @@ button:active:before {
   font-family:"parkinsansregular";
   text-align: justify ;
   column-count: 3;
-  font-size: 20px;
+  font-size: 15px;
   color:#ffffff;
-  padding-right: 100px;
-  padding-left:400px;  
+  padding-right: 200px;
+  padding-left:200px;  
 }
 
 .sisif {
@@ -214,14 +205,14 @@ button:active:before {
 
 .sisif:hover {
 
-  color:#00a023;
+  color:#f2f5f3;
 }
 
 
 .forme {
-
+  float:left;
   height: 450px;
-  margin-left: 230px;
+  margin-left: 200px;
 
 }
 
@@ -233,7 +224,13 @@ button:active:before {
 }
 
 .chicon{
-  height: 200px;
-  margin-left: 400px;
+  height: 130px;
+  margin-left: 240px;
+  margin-top: 30px
+}
+
+.chiconenbas{
+  height: 130px;
+  margin-left: 230px;
   margin-top: 30px
 }
