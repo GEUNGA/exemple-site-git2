@@ -10,6 +10,11 @@ body{
 }
 
 @font-face{
+  font-family: "parkinsansbold";
+  src: url("font/parkinsans/parkinsanbold.ttf");
+}
+
+@font-face{
   font-family: "parkinsans";
   src: url("font/parkinsans/parkinsanssemibold.ttf");
 }
@@ -54,7 +59,6 @@ body{
 
 h1{ color:#83fd97;
     font-size: 55px;
-    margin-top: 50px ;
     text-transform: uppercase;
     font-family: "bebasneueregular";
 }
@@ -93,7 +97,7 @@ h2{
      
 
     position:absolute;
-    top: 80px;
+    top: 140px;
     left: 600px;
     right : 150px;
 
@@ -124,16 +128,43 @@ details{
   color:#83fd97;
   margin-top: 20px;
   font-family: "parkinsansextrabold";
-  font-size: 17px;
+  font-size: 22px;
   display:inline-block;
-  margin-left: 195px;
+  margin-left: 205px;
   margin-top: 450px;
   text-align: center;
   line-height: 75%;
   
 }
 
+.fonctions{
+  font-family: "parkinsan";
+  font-size: 20px;
+  color: #83fd97;
+  padding-left:200px;
+  padding-right:1530px;
+  text-align: center;
 
+}
+
+.sisif {
+  font-size: 22px;
+  font-family: "parkinsanbold";
+  text-decoration: none;
+  color: #83fd97;
+ 
+
+
+}
+
+.sisif:hover {
+  
+  font-size: 22px;
+  font-family: "parkinsanbold";
+  color:#c9fad1;
+  
+
+}
 
 button {
   --color:#21c03b;
@@ -185,30 +216,6 @@ button:active:before {
   transition: background 0s;
 }
 
-
-
-.texteexpo {
-  font-family:"parkinsansregular";
-  text-align: justify ;
-  column-count: 3;
-  font-size: 15px;
-  color:#ffffff;
-  padding-right: 200px;
-  padding-left:200px;  
-}
-
-.sisif {
-
-  text-decoration: none;
-  color: #83fd97;
-}
-
-.sisif:hover {
-
-  color:#f2f5f3;
-}
-
-
 .forme {
   float:left;
   height: 450px;
@@ -224,13 +231,71 @@ button:active:before {
 }
 
 .chicon{
-  height: 130px;
-  margin-left: 240px;
-  margin-top: 30px
+  width: 3%;
+  padding-left: 270px;
+
 }
 
-.chiconenbas{
-  height: 130px;
-  margin-left: 230px;
-  margin-top: 30px
+
+.texteexpo {
+  font-family:"parkinsansregular";
+  text-align: justify ;
+  column-count: 2;
+  column-gap: 50px;
+  font-size: 16px;
+  color:#ffffff;
+  padding-right: 200px;
+  padding-left:200px; 
+
 }
+
+
+.exposition{
+  color:#ffda18;
+  font-size: 55px;
+  text-transform: uppercase;
+  font-family: "bebasneueregular";
+}
+
+.terminal{
+  width: 15%;
+  float:right;
+  margin-left:30px;
+  margin-bottom: 20px;
+}
+
+.texteconclusion{
+  font-family:"parkinsansregular";
+  color:#ffffff;
+  text-align: justify ;
+  font-size: 16px;
+  padding: 0 300px 0 300px;
+  margin-top: 100px;
+
+
+}
+
+.conclusion{
+
+  color:#4e4d4d;
+}
+
+
+.interview {
+  font-size: 30px;
+  text-align: center;
+  padding:100px 350px;
+}
+
+summary:hover{
+
+  color:#5e5e5e;
+
+}
+
+article{
+  font-size:16px;
+  color:#21c03b;
+  line-height: 130%;
+}
+
