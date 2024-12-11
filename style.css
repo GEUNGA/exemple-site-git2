@@ -1,150 +1,154 @@
-body{
+body {
   background-color: black;
-   
-  }
+}
 
-
-@font-face{
+@font-face {
   font-family: "bebasneueregular";
   src: url("font/bebasneueregular.ttf");
 }
 
-@font-face{
+@font-face {
   font-family: "parkinsansbold";
   src: url("font/parkinsans/parkinsanbold.ttf");
 }
 
-@font-face{
+@font-face {
   font-family: "parkinsans";
   src: url("font/parkinsans/parkinsanssemibold.ttf");
 }
 
-  @font-face { 
-  font-family: "parkinsansregular"; src: url("font/parkinsans/parkinsansregular.ttf"); 
+@font-face {
+  font-family: "parkinsansregular";
+  src: url("font/parkinsans/parkinsansregular.ttf");
 }
 
-@font-face{
+@font-face {
   font-family: "parkinsansextrabold";
   src: url("font/parkinsans/parkinsansextrabold.ttf");
 }
 
-
-
 .nav {
-    text-align: center;
-    margin: 0;
-    padding: 0;
- 
-      }
-
-
-  .nav li {
-    display: inline-block;
-    list-style-type: none;
-    padding: 20px;
-  }
-
-  .nav a {
-    font-family: "parkinsans";
-    color:rgb(255, 255, 255);
-    font-size: 25px;
-    text-decoration: none;
-
-  }
-
-.nav a:hover{
-  color:#2b00cc;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-
-h1{ color:#83fd97;
-    font-size: 55px;
-    text-transform: uppercase;
-    font-family: "bebasneueregular";
+.nav li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 20px;
 }
 
-h2{
+.nav a {
+  font-family: "parkinsans";
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  text-decoration: none;
+}
 
+.nav a:hover {
+  color: #b7e2ff;
+}
+
+h1 {
+  color: #83fd97;
+  font-size: 55px;
+  text-transform: uppercase;
+  font-family: "bebasneueregular";
+}
+
+h2 {
   font-size: 19px;
 }
 
-.messagedaccueil {
-  color: rgb(161, 185, 252);
-  margin-top: 230px;
-  text-align: center;
+.cursor {
   font-family: "parkinsansextrabold";
-  font-size: 80px;
+  color: #7eb5fc;
+  opacity: 50%;
+  position: relative;
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 90px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+  margin-top: 350px;
 }
-.messagedaccueil:active {
-  color: rgb(3, 70, 253);
-  margin-top: 230px;
-  text-align: center;
-  font-family: "parkinsansextrabold";
-  font-size: 80px;
+/* Animation */
+.typewriter-animation {
+  animation: typewriter 5s steps(50) 1s 1 normal both,
+    blinkingCursor 500ms steps(50) infinite normal;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blinkingCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
 }
 
 .container {
-
-    font-family:"parkinsansregular";
-    text-align: justify ;
-    column-count: 1;
-    column-width: 200px;
-    font-size: 16px;
-    color:#ffffff;
+  font-family: "parkinsansregular";
+  text-align: justify;
+  column-count: 1;
+  column-width: 200px;
+  font-size: 16px;
+  color: #ffffff;
 }
 
 .container {
-     
-
-    position:absolute;
-    top: 140px;
-    left: 600px;
-    right : 150px;
-
+  position: absolute;
+  top: 200px;
+  left: 600px;
+  right: 200px;
 }
 
-
-details{
-
-  font-family:"parkinsansregular";
-  font-size:20px;
+details {
+  font-family: "parkinsansregular";
+  font-size: 20px;
   line-height: 2;
-  color:rgb(255, 255, 255);
-  
-  
+  color: rgb(255, 255, 255);
 }
-
 
 .portrait {
-  position:absolute;
+  position: absolute;
   width: 400px;
-  top: 120px;
+  top: 220px;
   margin-left: 100px;
   padding-right: 300px;
 }
 
-.nicolas{
+.nicolas {
   text-align: ;
-  color:#83fd97;
+  color: #83fd97;
   margin-top: 20px;
   font-family: "parkinsansextrabold";
   font-size: 22px;
-  display:inline-block;
+  display: inline-block;
   margin-left: 205px;
-  margin-top: 450px;
+  margin-top: 550px;
   text-align: center;
   line-height: 75%;
-  
 }
 
-.fonctions{
+.fonctions {
   font-family: "parkinsan";
   font-size: 20px;
   color: #83fd97;
-  padding-left:200px;
-  padding-right:1530px;
+  padding-left: 200px;
+  padding-right: 1530px;
   text-align: center;
-
 }
 
 .sisif {
@@ -152,28 +156,23 @@ details{
   font-family: "parkinsanbold";
   text-decoration: none;
   color: #83fd97;
- 
-
-
 }
 
 .sisif:hover {
-  
   font-size: 22px;
   font-family: "parkinsanbold";
-  color:#c9fad1;
-  
-
+  color: #c9fad1;
 }
 
 button {
-  --color:#21c03b;
+  --color: #21c03b;
   font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
-  width: 10em;
+  width: 12em;
   height: 2.6em;
   line-height: 2.5em;
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 100px;
   position: relative;
   cursor: pointer;
   overflow: hidden;
@@ -184,6 +183,7 @@ button {
   border-radius: 6px;
   font-weight: 500;
   color: var(--color);
+  opacity: 90%;
 }
 
 button:before {
@@ -197,7 +197,7 @@ button:before {
 }
 
 button:hover {
-  color: #25232370;
+  color: #00000070;
 }
 
 button:before {
@@ -212,90 +212,102 @@ button:hover:before {
 }
 
 button:active:before {
-  background: #111111;
+  background: #83fd97;
   transition: background 0s;
 }
 
 .forme {
-  float:left;
+  float: left;
   height: 450px;
   margin-left: 200px;
-
 }
 
-.forme4{
-
+.forme4 {
   height: 450px;
   margin-left: 230px;
-
 }
 
-.chicon{
-  width: 3%;
-  padding-left: 270px;
-
+.chicon {
+  width: 8%;
+  padding-left: 80px;
+  padding-right: 100px;
+  padding-top: 60px;
+  float: left;
 }
-
 
 .texteexpo {
-  font-family:"parkinsansregular";
-  text-align: justify ;
+  font-family: "parkinsansregular";
+  text-align: justify;
   column-count: 2;
   column-gap: 50px;
   font-size: 16px;
-  color:#ffffff;
+  color: #ffffff;
   padding-right: 200px;
-  padding-left:200px; 
-
+  padding-left: 200px;
+  padding-top: 200px;
+  margin-top: 80px;
 }
 
-
-.exposition{
-  color:#ffda18;
+.exposition {
+  color: #ffda18;
   font-size: 55px;
   text-transform: uppercase;
   font-family: "bebasneueregular";
+  margin-top: -100px;
 }
 
-.terminal{
+.terminal {
   width: 15%;
-  float:right;
-  margin-left:30px;
+  float: right;
+  margin-left: 30px;
   margin-bottom: 20px;
 }
 
-.texteconclusion{
-  font-family:"parkinsansregular";
-  color:#ffffff;
-  text-align: justify ;
+.texteconclusion {
+  font-family: "parkinsansregular";
+  color: #ffffff;
+  text-align: justify;
   font-size: 16px;
-  padding: 0 300px 0 300px;
-  margin-top: 100px;
-
-
+  padding: 0 320px 0 320px;
+  margin-top: 200px;
 }
 
-.conclusion{
-
-  color:#4e4d4d;
+.conclusion {
+  color: #4e4d4d;
 }
-
 
 .interview {
   font-size: 30px;
   text-align: center;
-  padding:100px 350px;
+  padding: 130px 350px;
 }
 
-summary:hover{
 
-  color:#5e5e5e;
-
+summary:hover {
+  color: #5e5e5e;
 }
 
-article{
-  font-size:16px;
-  color:#21c03b;
+article {
+  font-size: 16px;
+  color: #ffffff;
   line-height: 130%;
 }
 
+.expoitalique {
+  font-family: "parkinsans";
+}
+
+footer {
+  position: fixed;
+  text-align: center;
+  left: 0;
+  top: 50;
+  bottom: 0;
+  width: 100%;
+  font-size: 15px;
+  font-family: "parkinsans";
+  color: #ffffff;
+  border-top: 0.1px solid #4e4d4d;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
