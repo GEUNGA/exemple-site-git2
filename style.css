@@ -284,6 +284,7 @@ button:active:before {
 
 summary{
   list-style: none;
+  line-height: 250%;
 
 }
 
@@ -296,6 +297,7 @@ summary:after{
 details[open] summary:after {
   content: "-";
   color:#83fd97;
+ 
 }
 
 summary:hover {
@@ -305,9 +307,11 @@ summary:hover {
 article {
   font-size: 16px;
   color: #ffffff;
-  line-height: 130%;
+  line-height: 150%;
+  border-bottom: 1px solid #83fd97;
+  
+  
 }
-
 
 .expoitalique {
   font-family: "parkinsans";
@@ -321,8 +325,8 @@ footer {
   bottom: 0;
   width: 100%;
   font-size: 15px;
-  font-family: "parkinsans";
   color: #ffffff;
+  font-family: "parkinsans";
   border-top: 0.1px solid #4e4d4d;
   padding-top: 13px;
   padding-bottom: 13px;
