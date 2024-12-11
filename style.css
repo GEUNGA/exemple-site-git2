@@ -269,7 +269,7 @@ button:active:before {
   text-align: justify;
   font-size: 16px;
   padding: 0 320px 0 320px;
-  margin-top: 200px;
+  margin-top: 160px;
 }
 
 .conclusion {
@@ -282,6 +282,21 @@ button:active:before {
   padding: 130px 350px;
 }
 
+summary{
+  list-style: none;
+
+}
+
+summary:after{
+  content:"+";
+  float: left;
+  color:#83fd97;
+}
+
+details[open] summary:after {
+  content: "-";
+  color:#83fd97;
+}
 
 summary:hover {
   color: #5e5e5e;
@@ -292,6 +307,7 @@ article {
   color: #ffffff;
   line-height: 130%;
 }
+
 
 .expoitalique {
   font-family: "parkinsans";
