@@ -13,6 +13,11 @@ body {
 }
 
 @font-face {
+  font-family: "parkinsanslight";
+  src: url("font/parkinsans/parkinsanslight.ttf");
+}
+
+@font-face {
   font-family: "parkinsans";
   src: url("font/parkinsans/parkinsanssemibold.ttf");
 }
@@ -47,7 +52,7 @@ body {
 }
 
 .nav a:hover {
-  color: #b7e2ff;
+  color: #5e5e5e;
 }
 
 h1 {
@@ -63,13 +68,13 @@ h2 {
 
 .cursor {
   font-family: "parkinsansextrabold";
-  color: #7eb5fc;
-  opacity: 50%;
+  color: #2d87fd;
+  opacity: 80%;
   position: relative;
   width: 24em;
   margin: 0 auto;
   border-right: 2px solid rgba(255, 255, 255, 0.75);
-  font-size: 90px;
+  font-size: 80px;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
@@ -91,7 +96,7 @@ h2 {
 }
 @keyframes blinkingCursor {
   from {
-    border-right-color: rgba(255, 255, 255, 0.75);
+    border-right-color: rgba(14, 13, 13, 0.45);
   }
   to {
     border-right-color: transparent;
@@ -230,8 +235,9 @@ button:active:before {
 .chicon {
   width: 8%;
   padding-left: 80px;
-  padding-right: 100px;
+  padding-right: 85px;
   padding-top: 60px;
+  padding-bottom:60px;
   float: left;
 }
 
@@ -239,13 +245,13 @@ button:active:before {
   font-family: "parkinsansregular";
   text-align: justify;
   column-count: 2;
-  column-gap: 50px;
+  column-gap: 80px;
   font-size: 16px;
   color: #ffffff;
-  padding-right: 200px;
-  padding-left: 200px;
-  padding-top: 200px;
-  margin-top: 80px;
+  padding-right: 270px;
+  padding-left: 270px;
+  padding-top: 175px;
+  margin-top: 70px;
 }
 
 .exposition {
@@ -253,14 +259,16 @@ button:active:before {
   font-size: 55px;
   text-transform: uppercase;
   font-family: "bebasneueregular";
-  margin-top: -100px;
+  margin-top: -106px;
+
 }
 
 .terminal {
-  width: 15%;
-  float: right;
-  margin-left: 30px;
-  margin-bottom: 20px;
+width: 13%;
+position:absolute;
+padding-left:200px;
+padding-top: 300px;
+
 }
 
 .texteconclusion {
@@ -268,18 +276,18 @@ button:active:before {
   color: #ffffff;
   text-align: justify;
   font-size: 16px;
-  padding: 0 320px 0 320px;
-  margin-top: 160px;
+  padding: 0 500px 0 600px;
+  margin-top: 140px;
 }
 
 .conclusion {
-  color: #4e4d4d;
+  color:#7eb5fc;
 }
 
 .interview {
   font-size: 30px;
   text-align: center;
-  padding: 130px 350px;
+  padding: 90px 350px;
 }
 
 summary{
@@ -314,7 +322,9 @@ article {
 }
 
 .expoitalique {
-  font-family: "parkinsans";
+  font-family: "parkinsanslight";
+  font-size: 16px;
+  line-height: 150%;
 }
 
 footer {
