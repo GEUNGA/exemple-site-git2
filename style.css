@@ -32,6 +32,7 @@ body {
   src: url("font/parkinsans/parkinsansextrabold.ttf");
 }
 
+/* fhdd */
 .nav {
   text-align: center;
   margin: 0;
@@ -59,16 +60,17 @@ h1 {
   color: #83fd97;
   font-size: 55px;
   text-transform: uppercase;
-  font-family: "bebasneueregular";
+  nerfont-family: "bebasneueregular";
 }
 
 h2 {
   font-size: 19px;
 }
 
+/* Animation */
 .cursor {
   font-family: "parkinsansextrabold";
-  color: #2d87fd;
+  color: #0011ff;
   opacity: 80%;
   position: relative;
   width: 24em;
@@ -80,8 +82,9 @@ h2 {
   overflow: hidden;
   transform: translateY(-50%);
   margin-top: 350px;
+  
 }
-/* Animation */
+
 .typewriter-animation {
   animation: typewriter 5s steps(50) 1s 1 normal both,
     blinkingCursor 500ms steps(50) infinite normal;
@@ -103,20 +106,25 @@ h2 {
   }
 }
 
-.container {
+.presentation{
   font-family: "parkinsansregular";
   text-align: justify;
   column-count: 1;
   column-width: 200px;
   font-size: 16px;
   color: #ffffff;
-}
-
-.container {
   position: absolute;
-  top: 200px;
+  top: 190px;
   left: 600px;
   right: 200px;
+}
+
+h1{  
+  
+  font-size: 60px;
+  text-transform: uppercase;
+  font-family: "bebasneueregular";
+
 }
 
 details {
@@ -267,9 +275,11 @@ button:active:before {
 width: 13%;
 position:absolute;
 padding-left:200px;
-padding-top: 300px;
+padding-top: 330px;
 
 }
+
+/* conclusion */
 
 .texteconclusion {
   font-family: "parkinsansregular";
@@ -283,6 +293,14 @@ padding-top: 300px;
 .conclusion {
   color:#7eb5fc;
 }
+
+.feuillesblanches{
+  font-size: 18px;
+}
+
+
+
+/* interview */
 
 .interview {
   font-size: 30px;
