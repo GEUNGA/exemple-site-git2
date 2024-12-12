@@ -60,12 +60,12 @@ h1 {
   color: #83fd97;
   font-size: 55px;
   text-transform: uppercase;
-  nerfont-family: "bebasneueregular";
+  font-family: "bebasneueregular";
 }
 
 h2 {
   font-size: 19px;
-}
+  letter-spacing: 1px;}
 
 /* Animation */
 .cursor {
@@ -119,13 +119,6 @@ h2 {
   right: 200px;
 }
 
-h1{  
-  
-  font-size: 60px;
-  text-transform: uppercase;
-  font-family: "bebasneueregular";
-
-}
 
 details {
   font-family: "parkinsansregular";
@@ -310,7 +303,7 @@ padding-top: 330px;
 
 summary{
   list-style: none;
-  line-height: 250%;
+  line-height: 50%;
 
 }
 
