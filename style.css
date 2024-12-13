@@ -76,7 +76,7 @@ h2 {
 /* Animation index */
 .cursor {
   font-family: "parkinsansextrabold";
-  color: #0011ff;
+  color: #0044ff;
   opacity: 80%;
   position: relative;
   width: 24em;
@@ -92,7 +92,7 @@ h2 {
 
 .typewriter-animation {
   animation: typewriter 5s steps(50) 1s 1 normal both,
-    blinkingCursor 500ms steps(50) infinite normal;
+    blinkingCursor 300ms steps(50) infinite normal;
 }
 @keyframes typewriter {
   from {
@@ -118,20 +118,18 @@ h2 {
   font-size: 30px;
   text-align: center;
   padding: 90px 350px;
+  border-style: 1px solid #83fd97;
 }
 
 summary{
   list-style: none;
-  padding-top: 80px;
-
+  padding-top: 25px;
 }
 
 summary:after{
   content:"+";
   float: left;
   color:#83fd97;
-  
-
 }
 
 details[open] summary:after {
@@ -140,25 +138,28 @@ details[open] summary:after {
 }
 
 summary:hover {
-  color: #5e5e5e;
-  font-weight: bold;
+  color: #21c03b;
+  
+
 }
 
 article {
   font-size: 16px;
   color: #ffffff;
   line-height: 150%;
-  border-bottom: 1px solid #83fd97;
+  border-bottom: 2px solid #83fd97;
 }
 
 details {
   font-family: "parkinsansregular";
   font-size: 20px;
   color: rgb(255, 255, 255);
+  cursor:pointer;
 
 }
 
 /* /PAGE DE PRESENTATION */
+
 .presentation{
   font-family: "parkinsansregular";
   text-align: justify;
@@ -185,33 +186,33 @@ details {
   color: #83fd97;
   margin-top: 20px;
   font-family: "parkinsansextrabold";
-  font-size: 22px;
+  font-size: 20px;
   display: inline-block;
-  margin-left: 205px;
+  margin-left: 210px;
   margin-top: 550px;
   text-align: center;
-  line-height: 75%;
+  line-height: 10%;
 }
 
 .fonctions {
-  font-family: "parkinsan";
-  font-size: 20px;
+  font-family: "parkinsanslight";
+  font-size: 16px;
   color: #83fd97;
-  padding-left: 200px;
+  padding-left: 220px;
   padding-right: 1530px;
   text-align: center;
 }
 
 .sisif {
-  font-size: 22px;
-  font-family: "parkinsanbold";
+  font-size: 18px;
+  font-family: "parkinsans";
   text-decoration: none;
   color: #83fd97;
 }
 
 .sisif:hover {
-  font-size: 22px;
-  font-family: "parkinsanbold";
+  font-size: 18px;
+  font-family: "parkinsans";
   color: #c9fad1;
 }
 
@@ -303,7 +304,7 @@ button:active:before {
 }
 
 .expoitalique {
-  font-family: "parkinsanslight";
+  font-family: "parkinsansextrabold";
   font-size: 16px;
   line-height: 150%;
 }
@@ -317,8 +318,8 @@ button:active:before {
   color: #ffffff;
   text-align: justify;
   font-size: 16px;
-  margin: 0 500px 0 600px;
-  margin-top: 140px;
+  margin: 0 500px 0 550px;
+  margin-top: 90px;
   padding: 20px 50px;
 }
 
@@ -333,7 +334,7 @@ button:active:before {
 .terminal {
   width: 13%;
   position:absolute;
-  padding-left:200px;
+  padding-left:180px;
   padding-top: 330px;
   cursor:pointer;
   
